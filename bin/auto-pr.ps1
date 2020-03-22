@@ -70,7 +70,7 @@ Mandatory options:
 
 Optional options:
   -u,  -upstream                   upstream repository with target branch
-                                   only used if -r is set (default: lukesampson/scoop:master)
+                                   only used if -r is set (default: davehorner/scoop:master)
   -h,  -help
 '@
     exit 0

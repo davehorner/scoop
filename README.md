@@ -3,32 +3,32 @@
     <h1 align="center">Scoop</h1>
 </p>
 <p align="center">
-<b><a href="https://github.com/lukesampson/scoop#what-does-scoop-do">Features</a></b>
+<b><a href="https://github.com/davehorner/scoop#what-does-scoop-do">Features</a></b>
 |
-<b><a href="https://github.com/lukesampson/scoop#installation">Installation</a></b>
+<b><a href="https://github.com/davehorner/scoop#installation">Installation</a></b>
 |
-<b><a href="https://github.com/lukesampson/scoop/wiki">Documentation</a></b>
+<b><a href="https://github.com/davehorner/scoop/wiki">Documentation</a></b>
 </p>
 
 - - -
 <p align="center" >
-    <a href="https://github.com/lukesampson/scoop">
-        <img src="https://img.shields.io/github/languages/code-size/lukesampson/scoop.svg" alt="Code Size" />
+    <a href="https://github.com/davehorner/scoop">
+        <img src="https://img.shields.io/github/languages/code-size/davehorner/scoop.svg" alt="Code Size" />
     </a>
-    <a href="https://github.com/lukesampson/scoop">
-        <img src="https://img.shields.io/github/repo-size/lukesampson/scoop.svg" alt="Repository size" />
+    <a href="https://github.com/davehorner/scoop">
+        <img src="https://img.shields.io/github/repo-size/davehorner/scoop.svg" alt="Repository size" />
     </a>
-    <a href="https://ci.appveyor.com/project/lukesampson/scoop">
+    <a href="https://ci.appveyor.com/project/davehorner/scoop">
         <img src="https://ci.appveyor.com/api/projects/status/05foxatmrqo0l788?svg=true" alt="Build Status" />
     </a>
     <a href="https://discord.gg/s9yRQHt">
         <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Discord Chat" />
     </a>
-    <a href="https://gitter.im/lukesampson/scoop">
-        <img src="https://badges.gitter.im/lukesampson/scoop.png" alt="Gitter Chat" />
+    <a href="https://gitter.im/davehorner/scoop">
+        <img src="https://badges.gitter.im/davehorner/scoop.png" alt="Gitter Chat" />
     </a>
-    <a href="https://github.com/lukesampson/scoop/blob/master/LICENSE">
-        <img src="https://img.shields.io/github/license/lukesampson/scoop.svg" alt="License" />
+    <a href="https://github.com/davehorner/scoop/blob/master/LICENSE">
+        <img src="https://img.shields.io/github/license/davehorner/scoop.svg" alt="License" />
     </a>
 </p>
 
@@ -95,7 +95,7 @@ $env:SCOOP_GLOBAL='F:\GlobalScoopApps'
 # run the installer
 ```
 
-## [Documentation](https://github.com/lukesampson/scoop/wiki)
+## [Documentation](https://github.com/davehorner/scoop/wiki)
 
 ## Multi-connection downloads with `aria2`
 
@@ -124,7 +124,7 @@ The apps that install best with Scoop are commonly called "portable" apps: i.e. 
 
 Since installers are common, Scoop supports them too (and their uninstallers).
 
-Scoop is also great at handling single-file programs and Powershell scripts. These don't even need to be compressed. See the [runat](https://github.com/ScoopInstaller/Main/blob/master/bucket/runat.json) package for an example: it's really just a GitHub gist.
+Scoop is also great at handling single-file programs and Powershell scripts. These don't even need to be compressed. See the [runat](https://github.com/davehorner/ScoopInstallerMain/blob/master/bucket/runat.json) package for an example: it's really just a GitHub gist.
 
 ### Support this project
 
@@ -136,8 +136,8 @@ If you find Scoop useful and would like to support ongoing development and maint
 
 The following buckets are known to scoop:
 
-- [main](https://github.com/ScoopInstaller/Main) - Default bucket for the most common (mostly CLI) apps
-- [extras](https://github.com/lukesampson/scoop-extras) - Apps that don't fit the main bucket's [criteria](https://github.com/lukesampson/scoop/wiki/Criteria-for-including-apps-in-the-main-bucket)
+- [main](https://github.com/davehorner/ScoopInstallerMain) - Default bucket for the most common (mostly CLI) apps
+- [extras](https://github.com/davehorner/scoop-extras) - Apps that don't fit the main bucket's [criteria](https://github.com/davehorner/scoop/wiki/Criteria-for-including-apps-in-the-main-bucket)
 - [games](https://github.com/Calinou/scoop-games) - Open source/freeware games and game-related tools
 - [nerd-fonts](https://github.com/matthewjberger/scoop-nerd-fonts) -  Nerd Fonts
 - [nirsoft](https://github.com/kodybrown/scoop-nirsoft) - A subset of the [250](https://github.com/rasa/scoop-directory/blob/master/by-score.md#MCOfficer_scoop-nirsoft) [Nirsoft](https://nirsoft.net) apps

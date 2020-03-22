@@ -39,7 +39,7 @@ $independent = $opt.i -or $opt.independent
 # load config
 $configRepo = get_config SCOOP_REPO
 if (!$configRepo) {
-    $configRepo = "https://github.com/lukesampson/scoop"
+    $configRepo = "https://github.com/davehorner/scoop"
     set_config SCOOP_REPO $configRepo | Out-Null
 }
 
@@ -129,7 +129,7 @@ function update_scoop() {
     }
 
     if ((Get-LocalBucket) -notcontains 'main') {
-        info "The main bucket of Scoop has been separated to 'https://github.com/ScoopInstaller/Main'"
+        info "The main bucket of Scoop has been separated to 'https://github.com/davehorner/ScoopInstallerMain'"
         info "Adding main bucket..."
         add_bucket 'main'
     }
@@ -204,7 +204,7 @@ function update($app, $global, $quiet = $false, $independent, $suggested, $use_c
     write-host "Updating '$app' ($old_version -> $version)"
 
     # region Workaround
-    # Workaround for https://github.com/lukesampson/scoop/issues/2220 until install is refactored
+    # Workaround for https://github.com/davehorner/scoop/issues/2220 until install is refactored
     # Remove and replace whole region after proper fix
     Write-Host "Downloading new version"
     if (Test-Aria2Enabled) {

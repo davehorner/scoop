@@ -160,7 +160,7 @@ function normalize_values([psobject] $json) {
         # Recursively edit psobjects
         # If the values is psobjects, its not normalized
         # For example if manifest have architecture and it's architecture have array with single value it's not formatted.
-        # @see https://github.com/lukesampson/scoop/pull/2642#issue-220506263
+        # @see https://github.com/davehorner/scoop/pull/2642#issue-220506263
         if ($_.Value -is [System.Management.Automation.PSCustomObject]) {
             $_.Value = normalize_values $_.Value
         }

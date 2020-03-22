@@ -12,7 +12,7 @@ reset_aliases
 
 # TODO: remove this in a few weeks
 if ((Get-LocalBucket) -notcontains 'main') {
-    warn "The main bucket of Scoop has been separated to 'https://github.com/ScoopInstaller/Main'"
+    warn "The main bucket of Scoop has been separated to 'https://github.com/davehorner/ScoopInstallerMain'"
     warn "You don't have the main bucket added, adding main bucket for you..."
     add_bucket 'main'
     exit
