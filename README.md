@@ -3,11 +3,6 @@
     <h1 align="center">davehorner's Scoop</h1>
 </p>
 <p align="center">
-```powershell
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-iwr -useb https://github.com/davehorner/scoop/raw/master/bin/install.ps1 | iex
-```
-
 <b><a href="https://github.com/davehorner/scoop#what-does-scoop-do">Features</a></b>
 |
 <b><a href="https://github.com/davehorner/scoop#installation">Installation</a></b>
@@ -38,6 +33,12 @@ iwr -useb https://github.com/davehorner/scoop/raw/master/bin/install.ps1 | iex
 </p>
 
 Scoop is a command-line installer for Windows.
+
+## install davehorner's Scoop?
+```powershell
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+iwr -useb https://github.com/davehorner/scoop/raw/master/bin/install.ps1 | iex
+```
 
 ## What does Scoop do?
 
