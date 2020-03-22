@@ -3,7 +3,7 @@
     <h1 align="center">davehorner's Scoop</h1>
 </p>
 <p align="center">
-```
+```powershell
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 iwr -useb https://github.com/davehorner/scoop/raw/master/bin/install.ps1 | iex
 ```
