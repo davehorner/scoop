@@ -1,8 +1,13 @@
 <p align="center">
 <!--<img src="scoop.png" alt="Long live Scoop!"/>-->
-    <h1 align="center">Scoop</h1>
+    <h1 align="center">davehorner's Scoop</h1>
 </p>
 <p align="center">
+```
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+iwr -useb https://github.com/davehorner/scoop/raw/master/bin/install.ps1 | iex
+```
+
 <b><a href="https://github.com/davehorner/scoop#what-does-scoop-do">Features</a></b>
 |
 <b><a href="https://github.com/davehorner/scoop#installation">Installation</a></b>
